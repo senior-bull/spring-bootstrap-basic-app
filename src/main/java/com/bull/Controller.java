@@ -11,4 +11,9 @@ public class Controller {
     public String page(){
         return "html/simple";
     }
+
+    @RequestMapping("/metrics")
+    public String page2(){
+        return "html/metrics";
+    }
 }
