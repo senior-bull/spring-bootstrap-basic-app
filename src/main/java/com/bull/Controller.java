@@ -6,14 +6,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-
-    @RequestMapping("/simple")
+    @RequestMapping("/offerView")
     public String page(){
         return "html/simple";
-    }
-
-    @RequestMapping("/metrics")
-    public String page2(){
-        return "html/metrics";
     }
 }
