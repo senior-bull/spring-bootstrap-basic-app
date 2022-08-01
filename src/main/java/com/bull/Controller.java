@@ -11,4 +11,9 @@ public class Controller {
     public String page(){
         return "html/simple";
     }
+
+    @RequestMapping("/test")
+    public String test(){
+        return "html/test";
+    }
 }
