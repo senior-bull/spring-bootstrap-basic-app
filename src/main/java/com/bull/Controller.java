@@ -14,6 +14,6 @@ public class Controller {
 
     @RequestMapping("/test")
     public String test(){
-        return "html/test";
+        return "html/tests/test";
     }
 }
