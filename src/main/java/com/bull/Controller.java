@@ -16,4 +16,9 @@ public class Controller {
     public String test(){
         return "html/tests/test";
     }
+
+    @RequestMapping("/objects_test")
+    public String objects_test(){
+        return "html/tests/objects_test";
+    }
 }
